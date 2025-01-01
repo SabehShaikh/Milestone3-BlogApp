@@ -1,5 +1,5 @@
 import React from "react";
-import { healthArticles } from "../page";
+import { healthArticles } from "@/data/healthArticles";
 import Comments from "@/components/Comments";
 import Image from "next/image";
 

@@ -1,8 +1,6 @@
-// app/tech/[id]/page.tsx
 import React from "react";
-
-import { sportsArticles } from "../page";
-import Comments from "@/components/Comments"; // Import the Comments component
+import { sportsArticles } from "@/data/sportsArticles";
+import Comments from "@/components/Comments";
 import Image from "next/image";
 
 export default function SportsArticlePage({ params }: { params: { id: string } }) {
